@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "continuous";
+  src: url(/static/continuous.ttf) format("truetype");
+}
+
+:root {
+  /* Color scheme from https://colorhunt.co/palette/6f61c0a084e88be8e5d5ffe4 */
+  --mint-light: #e2fff6;
+  --mint: #d5ffe4;
+  --mint-dark: #b0f4dd;
+  --skyblue-light: #89cce8;
+  --skyblue: #88abe8;
+  --skyblue-dark: #868be8;
+  --lavender-light: #a084e8;
+  --lavender: #6f61c0;
+  --lavender-dark: #574c95;
+
+  /* background-color: var(--jade-light); */
+  background: linear-gradient(white, var(--mint-light));
+}
+
+:root * {
+  box-sizing: border-box;
+}

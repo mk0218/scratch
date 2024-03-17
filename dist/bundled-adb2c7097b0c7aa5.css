@@ -1,0 +1,75 @@
+.func_main-8cf4904 {
+  width: 300px;
+  min-height: 150px;
+  background-color: yellow;
+}
+
+.layout-fc9be9d {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 150px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: baseline;
+}
+
+.nav-fc9be9d {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.nav-fc9be9d > * {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-fc9be9d {
+  margin-left: 50px;
+  font-family: continuous;
+  font-size: 45px;
+  font-weight: 800;
+  background: linear-gradient(var(--mint), var(--skyblue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(2px 2px var(--lavender));
+}
+
+.container-fc9be9d {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-fc9be9d > *:not(:first-child) {
+  margin-left: 20px;
+}
+
+.toolbox-fc9be9d {
+  width: 320px;
+}
+
+.editor-fc9be9d {
+  flex: 1;
+}
+
+.console-fc9be9d {
+  width: 400px;
+}
+
+.toolbox-fc9be9d,
+.console-fc9be9d {
+  background-color: var(--mint);
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../static/bundled.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACE;EACA;EACA;;;AAIF;EACE;EACA;EACA;EACA;EAEA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EAEA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;AAAA;EAEE%22,%22file%22:%22bundled.css%22%7D */
